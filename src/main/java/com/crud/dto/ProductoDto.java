@@ -13,7 +13,7 @@ public class ProductoDto {
     public ProductoDto() {
     }
 
-    public ProductoDto(@NotBlank String nombre, @Min(0) Float precio) {
+    public ProductoDto(@NotBlank String nombre,@Min(0) Float precio) {
         this.nombre = nombre;
         this.precio = precio;
     }
